@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">weather</string>
     <string name="label_location">Location</string>
     <string name="label_update_at">update_at</string>
     <string name="label_status">Clear Sky</string>
@@ -13,6 +13,5 @@
     <string name="label_sunrise">Sunrise</string>
     <string name="label_pressure">Pressure</string>
     <string name="label_wind">Wind</string>
-    <string name="label_todo">TODO</string>
     <string name="label_sunset">Sunset</string>
 </resources>
