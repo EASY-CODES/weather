@@ -8,9 +8,11 @@ import com.iamageo.weather.data.model.WheaterResponse
 import com.iamageo.weather.databinding.ActivityMainBinding
 import com.iamageo.weather.view.viewmodel.WeatherViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import java.text.SimpleDateFormat
 import java.util.*
 
+@ExperimentalCoroutinesApi
 @AndroidEntryPoint
 class WeatherMain : AppCompatActivity() {
 
