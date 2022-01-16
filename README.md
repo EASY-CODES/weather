@@ -3,7 +3,7 @@ Wheater is a small demo application based on modern Android tech-stacks and MVVM
 </p>
 </br>
 
-<img src="" align="right" width="32%"/>
+<img src="https://user-images.githubusercontent.com/26925002/149641950-0d9a5cdb-e2f5-4ea3-bf8b-73e6c3b1a3a8.PNG" align="right" width="32%"/>
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 19
@@ -34,3 +34,26 @@ Weather is based on the MVVM architecture and the Repository pattern.
 Weather using the [OpenWeatherMap](https://openweathermap.org/) for constructing RESTful API.<br>
 
 # License
+```xml
+MIT License
+
+Copyright (c) 2022 EASY-CODES
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
