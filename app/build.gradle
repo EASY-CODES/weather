@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -34,6 +36,9 @@ android {
     viewBinding  {
         enabled = true
     }
+    kapt {
+        correctErrorTypes true
+    }
 
 }
 
@@ -65,5 +70,15 @@ dependencies {
 
     //logging interceptor
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.3"
+
+    //di
+    implementation "com.google.dagger:hilt-android:2.28-alpha"
+    kapt "com.google.dagger:hilt-android-compiler:2.28-alpha"
+
+    def hilt_jetpack_version = "1.0.0-alpha02"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_jetpack_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
+    implementation 'androidx.fragment:fragment-ktx:1.3.0-alpha07'
+
 
 }

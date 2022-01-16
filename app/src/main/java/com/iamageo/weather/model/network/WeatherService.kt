@@ -1,17 +1,16 @@
 package com.iamageo.weather.data.model.network
 
-import com.iamageo.weather.core.RetrofitHelper
 import com.iamageo.weather.data.model.WheaterResponse
+import com.iamageo.weather.model.network.API
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import javax.inject.Inject
 
-class WeatherService {
-
-    private val retrofit = RetrofitHelper.getRetrofit()
+class WeatherService @Inject constructor(private val api: API) {
 
     suspend fun getWeatherFromLoacation(): WheaterResponse {
         return withContext(Dispatchers.IO) {
-            retrofit.create(WheaterAPI::class.java).getWeatherFromLoacation()
+            api.getWeatherFromLoacation()
         }
     }
 
