@@ -16,7 +16,7 @@ Wheater is a small demo application based on modern Android tech-stacks and MVVM
   - Repository pattern
 - [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - construct the REST APIs.
 - [Material-Components](https://github.com/material-components/material-components-android) - Material design components for building ripple animation, and CardView.
-
+- [Dagger Hilt](https://dagger.dev/hilt/) - for Dependency Injection
 
 ## MAD Score
 ![summary](https://user-images.githubusercontent.com/24237865/102366914-84f6b000-3ffc-11eb-8d49-b20694239782.png)
